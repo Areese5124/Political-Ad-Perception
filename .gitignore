@@ -1,2 +1,4 @@
 
 dep/.Rhistory
+*.csv
+dep/Facebook-Data-Trimmed
