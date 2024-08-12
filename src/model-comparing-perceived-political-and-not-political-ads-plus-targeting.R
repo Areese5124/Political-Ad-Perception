@@ -15,19 +15,19 @@ PC_Not_Political <- filter(Primary_Corpus,Political_or_not == "Not Political")
 #STM Creation
 #Preprocessing for Neg
 targ_temp_Neg <-textProcessor(documents=PC_Not_Political$html_text, metadata=PC_Not_Political)
-targ_out_Neg <- prepDocuments(temp_Neg$documents, temp_Neg$vocab, temp_Neg$meta)
+targ_out_Neg <- prepDocuments(targ_temp_Neg$documents, targ_temp_Neg$vocab, targ_temp_Neg$meta)
 #STM Model for Neg
-targ_model_Neg.stm <- stm(out_Neg$documents, out_Neg$vocab, K = 10, prevalence = 
+targ_model_Neg.stm <- stm(targ_out_Neg$documents, targ_out_Neg$vocab, K = 10, prevalence = 
                        ~political_probability
-                     , data = out_Neg$meta)
+                     , data = targ_out_Neg$meta)
 
 #Preprocessing for Pos
 targ_temp_pos <-textProcessor(documents=PC_Political$html_text, metadata=PC_Political)
-targ_out_pos <- prepDocuments(temp_pos$documents, temp_pos$vocab, temp_pos$meta)
+targ_out_pos <- prepDocuments(targ_temp_pos$documents, targ_temp_pos$vocab, targ_temp_pos$meta)
 #STM Model for Pos
-targ_model_pos.stm <- stm(out_pos$documents, out_pos$vocab, K = 10, prevalence = 
+targ_model_pos.stm <- stm(targ_out_pos$documents, targ_out_pos$vocab, K = 10, prevalence = 
                        ~political_probability
-                     , data = out_pos$meta)
+                     , data = targ_out_pos$meta)
 
 ### Visualizing and Labeling the Data:
 ##For Neg: The following two lines are used to delve deeper into the model
