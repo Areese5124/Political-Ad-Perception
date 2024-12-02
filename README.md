@@ -1,5 +1,5 @@
 ## About 
-The Facebook Ad Data Project is a series of statistical topic models I created in 2024 as part of a final project for the class Datascience 161: Text as Data at the University of California San Diego. The databse I used comes from the [Ad Observer Project](https://adobserver.org/) by the [NYU Cybersecurity for Democracy](https://cybersecurityfordemocracy.org/) center. 
+The Facebook Ad Data Project is a series of statistical topic models I created in 2024 as part of a final project for the class Datascience 161: Text as Data at the University of California San Diego. The database I used comes from the [Ad Observer Project](https://adobserver.org/) by the [NYU Cybersecurity for Democracy](https://cybersecurityfordemocracy.org/) center. 
 
 ***As of 8/12/24 the data is not currently avliable publicly anymore.***
 
