@@ -1,7 +1,7 @@
 ## About 
 The Facebook Ad Data Project is a series of statistical topic models I created in 2024 as part of a final project for the class Datascience 161: Text as Data at the University of California San Diego. The database I used comes from the [Ad Observer Project](https://adobserver.org/) by the [NYU Cybersecurity for Democracy](https://cybersecurityfordemocracy.org/) center. 
 
-***As of 8/12/24 the data is not currently avliable publicly anymore.***
+***As of 8/12/24 the data is not currently available publicly anymore.***
 
 ## Research Design of Project
 The goal of the The Facebook Ad Data Project was to investigate what words or phrases in political advertisements are more likely to make an individual think that an ad they see online is a political ad. With this project I hoped to gain better insight into what concepts and words are perceived as political by the public. However their was a mistake in the research design causing my models to be null. 
